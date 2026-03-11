@@ -11,8 +11,8 @@
   <modules>
     <module>code/routines</module>
     <module>code/beans</module>
-    <module>jobs/process/gennamesandcities_0.1</module>
     <module>jobs/routes/ro_pulse_0.1</module>
+    <module>jobs/process/jb_gennamesandcities_0.1</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>

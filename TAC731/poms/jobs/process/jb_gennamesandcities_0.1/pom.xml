@@ -9,9 +9,9 @@
     <relativePath>../../../</relativePath>
   </parent>
   <groupId>org.example.tac731.job</groupId>
-  <artifactId>genNamesandCities</artifactId>
+  <artifactId>jb_genNamesandCities</artifactId>
   <version>0.1.0</version>
-  <name>TAC731 genNamesandCities-0.1.0 (0.1,Job Designs)</name>
+  <name>TAC731 jb_genNamesandCities-0.1.0 (0.1,Job Designs)</name>
   <properties>
     <output.resources.dir>${talend.job.name}/src/main/resources</output.resources.dir>
     <talend.job.applyContextToChildren>false</talend.job.applyContextToChildren>
@@ -24,7 +24,7 @@
     <maven.build.timestamp.format>yyyy-MM-dd HHmmssSSS</maven.build.timestamp.format>
     <talend.project.name>TAC731</talend.project.name>
     <talend.product.version>7.3.1.20200219_1130</talend.product.version>
-    <talend.job.finalName>gennamesandcities_0_1</talend.job.finalName>
+    <talend.job.finalName>jb_gennamesandcities_0_1</talend.job.finalName>
     <talend.pigudf.groupid>org.example.tac731.pigudf</talend.pigudf.groupid>
     <talend.routine.groupid>org.example.tac731.code</talend.routine.groupid>
     <current.bundle.resources.dir>${basedir}/src/main/bundle-resources</current.bundle.resources.dir>
@@ -33,7 +33,7 @@
     <talend.job.context>Default</talend.job.context>
     <talend.job.date>${maven.build.timestamp}</talend.job.date>
     <current.resources.dir>${basedir}/src/main/ext-resources</current.resources.dir>
-    <talend.job.name>genNamesandCities</talend.job.name>
+    <talend.job.name>jb_genNamesandCities</talend.job.name>
     <talend.job.id>_iG4kgB1oEfGH7cmHwWZa6A</talend.job.id>
     <talend.project.id>0</talend.project.id>
     <talend.job.folder></talend.job.folder>

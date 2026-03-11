@@ -4,22 +4,22 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.example.tac731</groupId>
   <artifactId>code.Master</artifactId>
-  <version>7.3.1</version>
+  <version>7.3.1-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>TAC731 Codes Master</name>
   <url>http://www.talend.org/</url>
   <modules>
+    <module>jobs/process/jb_gennamesandcities_0.1</module>
+    <module>jobs/routes/ro_pulse_0.1</module>
     <module>code/routines</module>
     <module>code/beans</module>
-    <module>jobs/routes/ro_pulse_0.1</module>
-    <module>jobs/process/jb_gennamesandcities_0.1</module>
   </modules>
   <properties>
-    <signer.version>7.3.1</signer.version>
     <talend.project.name>TAC731</talend.project.name>
+    <signer.version>7.3.1</signer.version>
     <encoding>UTF-8</encoding>
-    <talend.docker.tag>${project.version}</talend.docker.tag>
     <maven.deploy.skip>true</maven.deploy.skip>
+    <talend.docker.tag>${project.version}</talend.docker.tag>
     <talend.docker.name>${talend.project.name.lowercase}/${talend.job.folder}%a</talend.docker.name>
   </properties>
   <build>

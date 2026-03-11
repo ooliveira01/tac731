@@ -5,7 +5,7 @@
   <parent>
     <groupId>org.example.tac731</groupId>
     <artifactId>code.Master</artifactId>
-    <version>7.3.1</version>
+    <version>7.3.1-SNAPSHOT</version>
     <relativePath>../../../</relativePath>
   </parent>
   <groupId>org.example.tac731.route</groupId>
@@ -35,6 +35,11 @@
     </dependency>
     <dependency>
       <groupId>org.talend.libraries</groupId>
+      <artifactId>camel-cxf-2.24.2</artifactId>
+      <version>6.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.talend.libraries</groupId>
       <artifactId>camel-spring-2.24.2</artifactId>
       <version>6.0.0</version>
     </dependency>
@@ -47,6 +52,11 @@
       <groupId>org.talend.libraries</groupId>
       <artifactId>crypto-utils</artifactId>
       <version>6.0.0-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.cxf</groupId>
+      <artifactId>cxf-core</artifactId>
+      <version>3.3.4</version>
     </dependency>
     <dependency>
       <groupId>org.dom4j</groupId>
@@ -74,6 +84,11 @@
       <groupId>com.sun.activation</groupId>
       <artifactId>javax.activation</artifactId>
       <version>1.2.0</version>
+    </dependency>
+    <dependency>
+      <groupId>javax.ws.rs</groupId>
+      <artifactId>javax.ws.rs-api</artifactId>
+      <version>2.1</version>
     </dependency>
     <dependency>
       <groupId>org.apache.logging.log4j</groupId>
@@ -143,12 +158,12 @@
     <dependency>
       <groupId>org.example.tac731.code</groupId>
       <artifactId>routines</artifactId>
-      <version>7.3.1</version>
+      <version>7.3.1-SNAPSHOT</version>
     </dependency>
     <dependency>
       <groupId>org.example.tac731.bean</groupId>
       <artifactId>beans</artifactId>
-      <version>7.3.1</version>
+      <version>7.3.1-SNAPSHOT</version>
     </dependency>
   </dependencies>
   <build />

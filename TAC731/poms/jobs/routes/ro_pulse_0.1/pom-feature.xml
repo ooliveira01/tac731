@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <parent>
@@ -14,68 +14,56 @@
   <packaging>pom</packaging>
   <name>TAC731 ro_Pulse-${project.version} (0.1,Routes) Feature</name>
   <properties>
-    <item.name>@ItemName@</item.name>
-    <bundle.config.export.service>@BundleConfigExportService@</bundle.config.export.service>
-    <bundle.config.bundle.classpath>@BundleConfigBundleClasspath@</bundle.config.bundle.classpath>
-    <talend.job.name>ro_Pulse</talend.job.name>
-    <current.test.resources.dir>${basedir}/src/test/resources</current.test.resources.dir>
-    <current.resources.dir>${basedir}/src/main/ext-resources</current.resources.dir>
-    <talend.project.name>TAC731</talend.project.name>
-    <maven.build.timestamp.format>yyyy-MM-dd HHmmssSSS</maven.build.timestamp.format>
+    <bundle.config.import.package>@BundleConfigImportPackage@</bundle.config.import.package>
+    <talend.job.folder></talend.job.folder>
+    <project.distribution-management.repository.id>${project.distributionManagement.repository.id}</project.distribution-management.repository.id>
+    <resources.path>${basedir}/src/main/resources</resources.path>
     <bundle.config.export.package>@BundleConfigExportPackage@</bundle.config.export.package>
-    <talend.project.id>0</talend.project.id>
-    <provided.lib.path>${current.bundle.resources.dir}/provided-lib</provided.lib.path>
-    <current.int-resources.dir>${basedir}/src/main/resources</current.int-resources.dir>
+    <talend.job.git.author>ooliveira@company.com</talend.job.git.author>
+    <item.name>@ItemName@</item.name>
+    <talend.job.id>_2QWNIB1oEfGH7cmHwWZa6A</talend.job.id>
+    <talend.job.framework></talend.job.framework>
+    <talend.job.parent.id></talend.job.parent.id>
+    <talend.routine.groupid>org.example.tac731.code</talend.routine.groupid>
+    <talend.appint.microservice>false</talend.appint.microservice>
     <talend.job.applyContextToChildren>false</talend.job.applyContextToChildren>
-    <talend.product.version>7.3.1.20200219_1130</talend.product.version>
+    <maven.build.timestamp.format>yyyy-MM-dd HHmmssSSS</maven.build.timestamp.format>
+    <talend.project.branch.name>master</talend.project.branch.name>
+    <talend.product.version>8.0.1.20260211_0926-patch</talend.product.version>
+    <talend.project.name>TAC731</talend.project.name>
+    <current.bundle.resources.dir>${basedir}/src/main/bundle-resources</current.bundle.resources.dir>
+    <bundle.config.export.service>@BundleConfigExportService@</bundle.config.export.service>
+    <talend.job.finalName>ro_pulse_0_1</talend.job.finalName>
+    <talend.job.type>Standard</talend.job.type>
+    <talend.pigudf.groupid>org.example.tac731.pigudf</talend.pigudf.groupid>
+    <lib.path>${resources.path}/lib</lib.path>
+    <talend.job.context>Default</talend.job.context>
+    <talend.job.path>tac731</talend.job.path>
+    <talend.job.git.commit.id>d9249137434e00c94ac30e9e84b4afe941f22147</talend.job.git.commit.id>
+    <cloud.publisher.skip>false</cloud.publisher.skip>
+    <item.project.name>@ItemProjectName@</item.project.name>
+    <talend.job.stat>true</talend.job.stat>
+    <talend.job.jvmargs>-Xms256M -Xmx1024M -Xshare:off -Djavaagent:../lib/talendagent-1.0.2.jar=bootjar=../lib/talendboot-1.0.9.jar </talend.job.jvmargs>
+    <talend.job.version>0.1</talend.job.version>
+    <current.int-resources.dir>${basedir}/src/main/resources</current.int-resources.dir>
+    <current.resources.dir>${basedir}/src/main/ext-resources</current.resources.dir>
+    <talend.project.name.lowercase>tac731</talend.project.name.lowercase>
+    <talend.project.id>0</talend.project.id>
     <output.resources.dir>${talend.job.name}/src/main/resources</output.resources.dir>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <current.bundle.resources.dir>${basedir}/src/main/bundle-resources</current.bundle.resources.dir>
-    <talend.routine.groupid>org.example.tac731.code</talend.routine.groupid>
-    <talend.job.folder></talend.job.folder>
-    <bundle.config.import.package>@BundleConfigImportPackage@</bundle.config.import.package>
-    <talend.job.id>_2QWNIB1oEfGH7cmHwWZa6A</talend.job.id>
-    <talend.project.name.lowercase>tac731</talend.project.name.lowercase>
-    <talend.job.finalName>ro_pulse_0_1</talend.job.finalName>
-    <lib.path>${resources.path}/lib</lib.path>
-    <project.distribution-management.repository.id>${project.distributionManagement.repository.id}</project.distribution-management.repository.id>
-    <talend.job.version>0.1</talend.job.version>
+    <current.test.resources.dir>${basedir}/src/test/resources</current.test.resources.dir>
+    <talend.job.git.commit.date>1773748971000</talend.job.git.commit.date>
     <project.distribution-management.repository.url>${project.distributionManagement.repository.url}</project.distribution-management.repository.url>
-    <talend.job.path>tac731</talend.job.path>
-    <talend.job.context>Default</talend.job.context>
-    <talend.job.stat>true</talend.job.stat>
-    <talend.pigudf.groupid>org.example.tac731.pigudf</talend.pigudf.groupid>
-    <talend.job.framework></talend.job.framework>
-    <talend.job.jvmargs>-Xms256M -Xmx1024M -Dfile.encoding=UTF-8 </talend.job.jvmargs>
-    <talend.job.type>Standard</talend.job.type>
-    <item.project.name>@ItemProjectName@</item.project.name>
-    <resources.path>${basedir}/src/main/resources</resources.path>
-    <cloud.publisher.skip>false</cloud.publisher.skip>
+    <talend.job.name>ro_Pulse</talend.job.name>
+    <bundle.config.bundle.classpath>@BundleConfigBundleClasspath@</bundle.config.bundle.classpath>
+    <provided.lib.path>${current.bundle.resources.dir}/provided-lib</provided.lib.path>
   </properties>
   <build>
     <plugins>
       <plugin>
-        <groupId>org.apache.karaf.tooling</groupId>
-        <artifactId>karaf-maven-plugin</artifactId>
-        <version>4.2.4</version>
-        <executions>
-          <execution>
-            <id>create-kar</id>
-            <goals>
-              <goal>kar</goal>
-            </goals>
-            <configuration>
-              <finalName>ro_pulse_0_1</finalName>
-              <resourcesDir>${project.build.directory}/bin</resourcesDir>
-              <featuresFile>${basedir}/src/main/bundle-resources/feature.xml</featuresFile>
-            </configuration>
-          </execution>
-        </executions>
-      </plugin>
-      <plugin>
         <groupId>org.talend.ci</groupId>
         <artifactId>osgihelper-maven-plugin</artifactId>
-        <version>7.3.1</version>
+        <version>8.0.12</version>
         <executions>
           <execution>
             <id>feature-helper</id>
@@ -85,9 +73,17 @@
             </goals>
             <configuration>
               <featuresFile>${basedir}/src/main/bundle-resources/feature.xml</featuresFile>
+              <skipChilds>true</skipChilds>
             </configuration>
           </execution>
         </executions>
+        <dependencies>
+          <dependency>
+            <groupId>commons-codec</groupId>
+            <artifactId>commons-codec</artifactId>
+            <version>1.16.0</version>
+          </dependency>
+        </dependencies>
       </plugin>
       <plugin>
         <artifactId>maven-clean-plugin</artifactId>
@@ -122,4 +118,224 @@
       </plugin>
     </plugins>
   </build>
+  <profiles>
+    <profile>
+      <id>kar-publisher</id>
+      <activation>
+        <property>
+          <name>service.url</name>
+        </property>
+      </activation>
+      <build>
+        <plugins>
+          <plugin>
+            <groupId>org.apache.karaf.tooling</groupId>
+            <artifactId>karaf-maven-plugin</artifactId>
+            <version>4.2.10</version>
+            <executions>
+              <execution>
+                <id>create-kar</id>
+                <goals>
+                  <goal>kar</goal>
+                </goals>
+                <configuration>
+                  <finalName>ro_pulse_0_1</finalName>
+                  <resourcesDir>${project.build.directory}/bin</resourcesDir>
+                  <featuresFile>${basedir}/src/main/bundle-resources/feature.xml</featuresFile>
+                </configuration>
+              </execution>
+            </executions>
+            <dependencies>
+              <dependency>
+                <groupId>org.apache.karaf.shell</groupId>
+                <artifactId>org.apache.karaf.shell.console</artifactId>
+                <version>4.2.10</version>
+                <exclusions>
+                  <exclusion>
+                    <groupId>org.apache.sshd</groupId>
+                    <artifactId>sshd-osgi</artifactId>
+                  </exclusion>
+                </exclusions>
+              </dependency>
+              <dependency>
+                <groupId>org.apache.karaf.shell</groupId>
+                <artifactId>org.apache.karaf.shell.core</artifactId>
+                <version>4.2.10</version>
+                <exclusions>
+                  <exclusion>
+                    <groupId>org.apache.sshd</groupId>
+                    <artifactId>sshd-osgi</artifactId>
+                  </exclusion>
+                </exclusions>
+              </dependency>
+              <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-lang3</artifactId>
+                <version>3.18.0</version>
+              </dependency>
+              <dependency>
+                <groupId>org.apache.maven.shared</groupId>
+                <artifactId>maven-shared-utils</artifactId>
+                <version>3.3.3</version>
+              </dependency>
+              <dependency>
+                <groupId>org.apache.felix</groupId>
+                <artifactId>maven-bundle-plugin</artifactId>
+                <version>6.0.0</version>
+              </dependency>
+              <dependency>
+                <groupId>commons-io</groupId>
+                <artifactId>commons-io</artifactId>
+                <version>2.20.0</version>
+              </dependency>
+              <dependency>
+                <groupId>org.apache.httpcomponents</groupId>
+                <artifactId>httpclient</artifactId>
+                <version>4.5.13</version>
+              </dependency>
+              <dependency>
+                <groupId>org.apache.httpcomponents</groupId>
+                <artifactId>httpcore</artifactId>
+                <version>4.4.13</version>
+              </dependency>
+              <dependency>
+                <groupId>com.sun.istack</groupId>
+                <artifactId>istack-commons-runtime</artifactId>
+                <version>3.0.10</version>
+              </dependency>
+              <dependency>
+                <groupId>org.tukaani</groupId>
+                <artifactId>xz</artifactId>
+                <version>1.8</version>
+              </dependency>
+              <dependency>
+                <groupId>junit</groupId>
+                <artifactId>junit</artifactId>
+                <version>4.13.2</version>
+              </dependency>
+              <dependency>
+                <groupId>org.apache.maven</groupId>
+                <artifactId>maven-core</artifactId>
+                <version>3.8.8</version>
+              </dependency>
+              <dependency>
+                <groupId>org.apache.maven</groupId>
+                <artifactId>maven-compat</artifactId>
+                <version>3.8.8</version>
+              </dependency>
+              <dependency>
+                <groupId>org.apache.maven</groupId>
+                <artifactId>maven-settings</artifactId>
+                <version>3.8.8</version>
+              </dependency>
+              <dependency>
+                <groupId>org.apache.maven</groupId>
+                <artifactId>maven-settings-builder</artifactId>
+                <version>3.8.8</version>
+              </dependency>
+              <dependency>
+                <groupId>org.codehaus.plexus</groupId>
+                <artifactId>plexus-archiver</artifactId>
+                <version>4.8.0</version>
+              </dependency>
+              <dependency>
+                <groupId>org.codehaus.plexus</groupId>
+                <artifactId>plexus-io</artifactId>
+                <version>3.2.0</version>
+              </dependency>
+              <dependency>
+                <groupId>org.iq80.snappy</groupId>
+                <artifactId>snappy</artifactId>
+                <version>0.5</version>
+              </dependency>
+              <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-compress</artifactId>
+                <version>1.28.0</version>
+              </dependency>
+              <dependency>
+                <groupId>org.jsoup</groupId>
+                <artifactId>jsoup</artifactId>
+                <version>1.15.3</version>
+              </dependency>
+              <dependency>
+                <groupId>org.apache.maven</groupId>
+                <artifactId>maven-model</artifactId>
+                <version>3.8.8</version>
+              </dependency>
+              <dependency>
+                <groupId>commons-codec</groupId>
+                <artifactId>commons-codec</artifactId>
+                <version>1.16.0</version>
+              </dependency>
+              <dependency>
+                <groupId>com.google.guava</groupId>
+                <artifactId>guava</artifactId>
+                <version>32.0.1-jre</version>
+              </dependency>
+              <dependency>
+                <groupId>org.slf4j</groupId>
+                <artifactId>slf4j-jdk14</artifactId>
+                <version>1.7.34</version>
+              </dependency>
+              <dependency>
+                <groupId>org.slf4j</groupId>
+                <artifactId>jcl-over-slf4j</artifactId>
+                <version>1.7.34</version>
+              </dependency>
+              <dependency>
+                <groupId>org.slf4j</groupId>
+                <artifactId>slf4j-api</artifactId>
+                <version>1.7.34</version>
+              </dependency>
+              <dependency>
+                <groupId>org.apache.maven.doxia</groupId>
+                <artifactId>doxia-site-renderer</artifactId>
+                <version>1.0</version>
+                <exclusions>
+                  <exclusion>
+                    <groupId>org.apache.velocity</groupId>
+                    <artifactId>velocity</artifactId>
+                  </exclusion>
+                </exclusions>
+              </dependency>
+              <dependency>
+                <groupId>org.apache.velocity</groupId>
+                <artifactId>velocity-engine-core</artifactId>
+                <version>2.4</version>
+                <exclusions>
+                  <exclusion>
+                    <groupId>commons-io</groupId>
+                    <artifactId>commons-io</artifactId>
+                  </exclusion>
+                </exclusions>
+              </dependency>
+              <dependency>
+                <groupId>org.ops4j.pax.url</groupId>
+                <artifactId>pax-url-aether</artifactId>
+                <version>3.0.0</version>
+                <exclusions>
+                  <exclusion>
+                    <groupId>org.apache.maven.wagon</groupId>
+                    <artifactId>wagon-http</artifactId>
+                  </exclusion>
+                </exclusions>
+              </dependency>
+              <dependency>
+                <groupId>org.apache.maven.wagon</groupId>
+                <artifactId>wagon-http</artifactId>
+                <version>3.5.2</version>
+                <exclusions>
+                  <exclusion>
+                    <groupId>commons-io</groupId>
+                    <artifactId>commons-io</artifactId>
+                  </exclusion>
+                </exclusions>
+              </dependency>
+            </dependencies>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
+  </profiles>
 </project>
